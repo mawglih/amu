@@ -280,8 +280,8 @@
   text-transform: uppercase;
 }
 
-
-/* for ipad Pro devices */
+/* 
+for ipad Pro devices
 @media only screen and (max-width: 1100px) {
   .big {
     width: 95%;
@@ -291,10 +291,10 @@
     width: 95%;
     height: 50%;
   }
-}
+} */
 
 /* for ipad devices */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1100px) {
   .big {
     width: 95%;
     height: 95%;

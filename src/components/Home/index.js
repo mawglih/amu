@@ -33,7 +33,7 @@ const Home = () => {
     <>
       <div className={styles.container}>
         <div className={styles.header}>
-          <h1><span>Alpha Marine Upholstery</span> </h1>
+          <h1>Alpha Marine Upholstery</h1>
           <h2>your best boat renovation shop</h2>
         </div>
         <div className={styles.hero}></div>
