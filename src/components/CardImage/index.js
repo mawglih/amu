@@ -11,8 +11,8 @@ const CardImage = ({
 }) => {
   return (
     <div>
-      <div>
-        <img src={`${aws.root}Full/${image}.png`} alt={image} className={styles.imageBig} />
+      <div className={styles.imageBig}>
+        <img src={`${aws.root}Full/${image}.png`} alt={image} />
       </div>
 
       <Button

@@ -1,16 +1,31 @@
 .imageBig {
-  width: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageBig > img {
+  display: block;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  align-self: center;
 }
 
 /* for smaller devices */
 @media only screen and (max-width: 768px) {
   .imageBig {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .imageBig > img {
-    padding: 10px;
     display: block;
+    padding: 10px;
+    height: 100%;
     width: 100%;
+    align-self: center;
   }
 }
 

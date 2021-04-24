@@ -8,7 +8,7 @@ export default {
   Address1 : `20 Cottonwood court, `,
   Address2 : 'Palm Coast FL 32137',
   Company : 'Alpha Marine Upholstery',
-  Email : 'mailto:taran@alphamarineupholstery.com',
+  Email : 'mailto:ytar777@gmail.com',
   PhoneNumber: 'tel:386-276-0294',
   Short1: 'Nothing brings your boat or yacht back to life like new interior or exterior upholstery...',
   Short2: 'We specialize in constructing high quality custom upholstered outdoor and indoor furniture...',
