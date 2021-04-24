@@ -43,14 +43,14 @@ const Modal
         onKeyDown={e => e.stopPropagation()}
         role="presentation"
       >
-        <div className={cn(
+        {title && <div className={cn(
           titleClass ? styles[titleClass] : styles.modalTitle,
         )}
         >
           <span>
             {title}
           </span>
-        </div>
+        </div>}
         <div className={styles.modalBody}>
           <>
             {children}
