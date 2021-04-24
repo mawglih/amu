@@ -10,7 +10,7 @@ const CardImage = ({
   click,
 }) => {
   return (
-    <div>
+    <>
       <div className={styles.imageBig}>
         <img src={`${aws.root}Full/${image}.png`} alt={image} />
       </div>
@@ -20,8 +20,9 @@ const CardImage = ({
           arrow={arrow}
           text={button}
           click={click}
+          posBtn="buttonPosition"
         />
-    </div>
+    </>
   )
 }
 

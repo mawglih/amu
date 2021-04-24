@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 import ArrowBackIosOutlinedIcon from '@material-ui/icons/ArrowBackIosOutlined';
 import ArrowForwardIosOutlinedIcon from '@material-ui/icons/ArrowForwardIosOutlined';
+import styles from './button.css';
 
 const useStyles = makeStyles((theme) => ({
   button: {
@@ -14,12 +15,13 @@ const StyledButton = ({
   text,
   arrow,
   color,
-  click
+  click,
+  posBtn,
 }) => {
   const classes = useStyles();
 
   return (
-    <div>
+    <div className={styles[posBtn]}>
       {!!text &&
       (<Button
         variant="contained"

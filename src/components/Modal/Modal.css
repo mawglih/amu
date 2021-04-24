@@ -169,10 +169,17 @@
   color:red;
   font-size: 200%;
   text-align: center;
-  width:100%;
+  /* width:100%; */
   background-color: white;
-  border-radius: 15px;
-  height: 2.5rem;text-transform: uppercase;
+  border-radius: 5px;
+  border: 3px solid red;
+  padding: 10px;
+  height: 2.5rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .titleSmall {
   color: #222;
@@ -201,7 +208,7 @@
   font-weight: bolder;
   box-sizing: border-box;
   padding: 1.5rem;
-  box-sizing: border-box;
+  height: 100%;
 }
 .modalButtons {
   align-self: flex-end;
