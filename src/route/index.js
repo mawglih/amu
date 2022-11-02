@@ -7,11 +7,15 @@ import ProductDetail from '../components/Products/ProductDetail';
 import Products from '../components/Products/ProductsList';
 import Upholstery from '../components/Upholstery';
 import ContactUs from '../components/ContactUs';
+import Pufiki from '../components/Pufiki';
+import Hrenovina from '../components/Hrenovina';
 
 const index = () => (
   <Switch>
     <Route exact path='/awnings' component={Awnings} />
-    <Route exact path='/about' component={Enclosure} />
+    <Route exact path='/enc' component={Enclosure} />
+    <Route exact path='/cus' component={Pufiki} />
+    <Route exact path='/can' component={Hrenovina} />
     <Route exact path='/products' component={Products} />
     <Route exact path='/upholstery' component={Upholstery} />
     <Route exact path='/contact' component={ContactUs} />

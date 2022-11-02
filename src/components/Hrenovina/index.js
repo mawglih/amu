@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styles from './Enclosure.css';
+import styles from './Hrenovina.css';
 import AllPhotos from '../AllFotos';
 import WhatWeDo from '../WhatWeDo';
 import CardImage from '../CardImage';
@@ -48,7 +48,7 @@ const Enclosure = () => {
     <div className={styles.container}>
       <WhatWeDo text={1} />
       <AllPhotos
-        name='enc'
+        name='hre'
         classname1={styles.list}
         classname2={styles.listItem}
         onImageClick={onImageClick}

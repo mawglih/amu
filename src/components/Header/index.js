@@ -53,7 +53,9 @@ const Header = () => {
 
   const LINKS = [
     { text:'Home', link: '/' },
-    { text: 'What we do', link: '/about' },
+    {text: 'Enclosures', link: '/enc', },
+    {text: 'Cushions', link: '/cus', },
+    {text: 'Canvas', link: '/can', },
     { text: 'Contact us', link: '/contact' },
   ];
 

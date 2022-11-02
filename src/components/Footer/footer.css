@@ -2,6 +2,12 @@
   background-color: rgb(8, 8, 153);
   padding: 50px;
   color: antiquewhite;
+  position: fixed;
+  height: 180px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 .content {
   display: flex;
@@ -24,8 +30,18 @@
 }
 .mobile {
   display: none;
+
 }
+/* Ipad and smaller */
+@media only screen and (max-width:1024px) {
+  .container{
+    position:initial;
+    
+  }
+}
+
 /* for smaller devices */
+
 @media only screen and (max-width: 600px) {
   .mobile  {
     display: flex;
