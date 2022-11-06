@@ -1,9 +1,7 @@
 .container {
   background-color: rgb(8, 8, 153);
-  padding: 50px;
   color: antiquewhite;
   position: fixed;
-  height: 180px;
   bottom: 0px;
   left: 0px;
   right: 0px;
@@ -15,7 +13,7 @@
   align-items: center;
   flex-wrap: wrap;
   background-color: rgb(8, 8, 153);
-  padding: 50px;
+  padding: 20px;
   color: antiquewhite;
 }
 .content svg {

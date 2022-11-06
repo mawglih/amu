@@ -9,14 +9,14 @@ const AllFotos = ({
 }) => {
 
   const imagePath = `${aws.root}thumbs/`;
-  const returnImages = arr => {
+  const returnImages = (arr) => {
     switch (arr) {
       case 'enc' :
         return aws.enc;
-      case 'puf' :
-        return aws.puf;
-      case 'hre' : 
-        return aws.hre;
+      case 'cus' :
+        return aws.cus;
+      case 'can' : 
+        return aws.can;
       default:
       return aws.fotos;
     }

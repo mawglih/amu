@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import styles from './Enclosure.css';
 import AllPhotos from '../AllFotos';
 import WhatWeDo from '../WhatWeDo';
@@ -11,6 +12,12 @@ const Enclosure = () => {
   const [text, setText] = useState('');
   const [button, setButton] = useState('');
   const [arrow, setArrow] = useState(true);
+
+  const location = useLocation();
+
+  let pageName = location.pathname.substring(1);
+  console.log("pagename: ", pageName)
+
   useEffect(() => {
     setModalOpen(false);
   }, []);
@@ -48,7 +55,7 @@ const Enclosure = () => {
     <div className={styles.container}>
       <WhatWeDo text={1} />
       <AllPhotos
-        name='enc'
+        name={pageName}
         classname1={styles.list}
         classname2={styles.listItem}
         onImageClick={onImageClick}
